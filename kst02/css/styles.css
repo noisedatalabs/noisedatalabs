@@ -1,0 +1,30 @@
+.navbar { background-color: #337ab7; border: none; color: #fff; }
+
+.navbar-inverse .navbar-brand { color: #fff; }
+
+
+.navbar-inverse .navbar-nav>li>a { color: #5cb85c; font-weight: 600; }
+
+.jumbotron {
+  background-image: url('../images/p1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jumbotron .container { min-height: 200px; position: relative; }
+.jumbotron .container p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  text-shadow: 2px 2px 2px #5cb85c;
+  text-align: right;
+  padding-left: 400px;
+  position: absolute;
+  right: 5px;
+  top: 150px;
+}
+
+h2 { font-size: 20px; font-weight: 600; }
+
+h3 { font-size: 18px; font-weight: 300; text-transform: uppercase; }

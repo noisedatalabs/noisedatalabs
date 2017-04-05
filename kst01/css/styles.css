@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato/Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype'),
+    url('../fonts/Roboto/Roboto-Black.ttf') format('truetype'),
+    url('../fonts/Roboto/Roboto-BlackItalic.ttf') format('truetype'),
+    url('../fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+}
+
+html, body { font-family: 'Open Sans', sans-serif; }
+
+.carousel-caption p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px; font-weight: 300;
+    color: #fff;
+    text-shadow: 2px 1px 2px #333; /* #5a5;*/
+    letter-spacing: 1px;
+}
+
+
+.navbar { background-color: transparent; }
+
+.navbar .navbar-brand .title-left {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-weight: 900;
+  font-size: 28px;
+  margin-right: 10px;
+}
+
+.navbar .navbar-brand .title-right {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  letter-spacing: 5px;
+}
+.navbar-default .navbar-nav>li>a { color: #fff; text-transform: uppercase; font-weight: 300; }
+
+.navbar-default .navbar-nav>li>a:hover { color: #5f5; text-decoration: none; }
+
+.navbar-default .navbar-nav>.active>a { background-color: transparent; color: #5f5; }
+.navbar-default .navbar-nav>.active>a:hover { background-color: transparent; color: #5f5; text-decoration: none; }
+
+
+
+/*******------------------------- Marketting --------------------------********/
+.marketing h2 { font-size: 20px; font-weight: 600; text-transform: uppercase; }
+
+img.featurette-image { background-size: cover; width: 100%; }
+
+.marketing .col-lg-4 p { height: 80px; }
+
+.featurette .featurette-heading { font-size: 20px; font-weight: 400; }
+
+.featurette ul { list-style: none; }
+.featurette h3 { font-size: 16px; font-weight: 600; text-transform: uppercase; }
